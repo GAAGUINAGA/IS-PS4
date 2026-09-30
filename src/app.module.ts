@@ -21,6 +21,7 @@ export const { ObserveModule, ObserveInstrument } = createObserveModule();
       driver: ApolloDriver,
       autoSchemaFile: join(process.cwd(), 'schema.gql'),
       csrfPrevention: false,
+      graphiql: true,
     }),
     HttpModule.register({}),
   ],
